@@ -18,6 +18,4 @@ curl -XPUT -H 'Content-Type: application/json' http://localhost:9999/api/filme/h
 DELETA:
 curl -XDELETE http://localhost:9999/api/filme/h90EJ07EN4ymOodh -v
 
-FILTRANDO POR TÍTULO:
 
-curl http://localhost:9999/api/filme?title='World War Z' -v 
